@@ -63,13 +63,13 @@ const TestimonialsSection: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-6xl font-bold text-zinc-100 mb-6">
+          <h2 className="text-2xl md:text-4xl font-bold text-zinc-100 mb-6">
             What Our{' '}
             <span className="bg-gradient-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent">
               Clients Say
             </span>
           </h2>
-          <p className="text-xl text-zinc-400 max-w-3xl mx-auto">
+          <p className="text-base text-zinc-400 max-w-3xl mx-auto">
             Don't just take our word for it - hear from the companies we've helped transform
           </p>
         </motion.div>
@@ -110,7 +110,7 @@ const TestimonialsSection: React.FC = () => {
                   </div>
 
                   {/* Quote */}
-                  <blockquote className="text-xl md:text-2xl text-zinc-200 italic leading-relaxed mb-8">
+                  <blockquote className="text-base md:text-lg text-zinc-200 italic leading-relaxed mb-8">
                     "{testimonials[currentIndex].text}"
                   </blockquote>
 
@@ -125,10 +125,10 @@ const TestimonialsSection: React.FC = () => {
                       />
                     </div>
                     <div className="text-left">
-                      <div className="text-zinc-100 font-semibold text-lg">
+                      <div className="text-zinc-100 font-semibold text-sm">
                         {testimonials[currentIndex].name}
                       </div>
-                      <div className="text-lime-400 font-medium">
+                      <div className="text-xs text-lime-400 font-medium">
                         {testimonials[currentIndex].role}
                       </div>
                     </div>

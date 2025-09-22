@@ -13,14 +13,14 @@ const HeroSection: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="mb-8"
         >
-          <h1 className="text-5xl md:text-6xl font-bold text-zinc-100 mb-6 leading-tight">
+          <h1 className="text-3xl md:text-4xl font-bold text-zinc-100 mb-6 leading-tight">
             Your Data, Mapped and{' '}
             <span className="bg-gradient-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent">
               Visualized.
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-zinc-400 mb-8 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-base md:text-lg text-zinc-400 mb-8 max-w-4xl mx-auto leading-relaxed">
             Transform complex geographical and statistical data into clear, actionable insights 
             with FRA Atlas. Build interactive maps with React-Leaflet, design real-time dashboards 
             with Recharts, and trust in a secure backend powered by Supabase.
@@ -35,13 +35,13 @@ const HeroSection: React.FC = () => {
         >
           <Link
             to="/signup"
-            className="group bg-gradient-to-r from-lime-400 to-lime-300 text-zinc-950 px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-lime-400/25 transition-all duration-300 hover:scale-105 flex items-center"
+            className="group bg-gradient-to-r from-lime-400 to-lime-300 text-zinc-950 px-6 py-2 rounded-full font-semibold text-sm hover:shadow-2xl hover:shadow-lime-400/25 transition-all duration-300 hover:scale-105 flex items-center"
           >
             Get Started for Free
             <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </Link>
 
-          <button className="group flex items-center px-8 py-4 rounded-full border border-lime-400/30 text-lime-400 hover:bg-lime-400/10 transition-all duration-300">
+          <button className="group flex items-center px-6 py-2 rounded-full border border-lime-400/30 text-lime-400 hover:bg-lime-400/10 transition-all duration-300 text-sm">
             <div className="w-10 h-10 bg-lime-400/20 rounded-full flex items-center justify-center mr-3 group-hover:bg-lime-400/30 transition-colors duration-300">
               <Play className="w-4 h-4 text-lime-400 ml-0.5" />
             </div>
@@ -62,10 +62,10 @@ const HeroSection: React.FC = () => {
             { value: '99.9%', label: 'Uptime Guarantee' },
           ].map((stat, index) => (
             <div key={index} className="text-center p-4 bg-zinc-900/20 rounded-xl">
-              <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent">
+              <div className="text-xl md:text-2xl font-bold bg-gradient-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent">
                 {stat.value}
               </div>
-              <div className="text-zinc-400 mt-1">{stat.label}</div>
+              <div className="text-xs text-zinc-400 mt-1">{stat.label}</div>
             </div>
           ))}
         </motion.div>

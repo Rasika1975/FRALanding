@@ -56,18 +56,18 @@ const Footer: React.FC = () => {
                 <div className="w-10 h-10 bg-gradient-to-r from-lime-400 to-lime-300 rounded-lg flex items-center justify-center">
                   <MapPin className="w-6 h-6 text-zinc-950" />
                 </div>
-                <span className="text-2xl font-bold bg-gradient-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent">
+                <span className="text-lg font-bold bg-gradient-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent">
                   FRA Atlas
                 </span>
               </div>
               
-              <p className="text-zinc-400 mb-6 max-w-md">
+              <p className="text-xs text-zinc-400 mb-6 max-w-md">
                 Transform your data into powerful insights with our comprehensive analytics platform. 
                 Interactive maps, real-time dashboards, and enterprise-grade security.
               </p>
 
               {/* Contact info */}
-              <div className="space-y-3">
+              <div className="space-y-3 text-xs">
                 <div className="flex items-center text-zinc-400">
                   <Mail className="w-5 h-5 mr-3 text-lime-400" />
                   <span>contact@fra-atlas.com</span>
@@ -93,8 +93,8 @@ const Footer: React.FC = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-zinc-100 font-semibold mb-4">{category}</h3>
-              <ul className="space-y-3">
+              <h3 className="text-sm text-zinc-100 font-semibold mb-4">{category}</h3>
+              <ul className="space-y-3 text-xs">
                 {links.map((link) => (
                   <li key={link.name}>
                     <Link
@@ -118,7 +118,7 @@ const Footer: React.FC = () => {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="text-zinc-500 mb-4 md:mb-0"
+              className="text-xs text-zinc-500 mb-4 md:mb-0"
             >
               © 2024 FRA. All rights reserved.
             </motion.div>

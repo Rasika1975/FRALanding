@@ -37,7 +37,7 @@ const HowItWorksSection: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-zinc-100 mb-6 leading-tight max-w-4xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold text-zinc-100 mb-6 leading-tight max-w-4xl mx-auto">
             From Data to Insight in Three Simple{' '}
             <span className="bg-gradient-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent">
               Steps
@@ -58,7 +58,7 @@ const HowItWorksSection: React.FC = () => {
               {/* Content */}
               <div className="flex-1 text-center lg:text-left">
                 <div className="flex items-center justify-center lg:justify-start mb-6">
-                  <div className="text-6xl md:text-7xl font-bold text-lime-400/20 mr-6">
+                  <div className="text-4xl md:text-5xl font-bold text-lime-400/20 mr-6">
                     {step.step}
                   </div>
                   <div className="w-16 h-16 bg-gradient-to-r from-lime-400 to-lime-300 rounded-2xl flex items-center justify-center">
@@ -66,11 +66,11 @@ const HowItWorksSection: React.FC = () => {
                   </div>
                 </div>
                 
-                <h3 className="text-3xl md:text-4xl font-bold text-zinc-100 mb-6">
+                <h3 className="text-xl md:text-2xl font-bold text-zinc-100 mb-6">
                   {step.title}
                 </h3>
                 
-                <p className="text-xl text-zinc-400 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                <p className="text-base text-zinc-400 leading-relaxed max-w-2xl mx-auto lg:mx-0">
                   {step.description}
                 </p>
               </div>
@@ -87,8 +87,8 @@ const HowItWorksSection: React.FC = () => {
                     />
                     <div className="absolute inset-8 bg-gradient-to-t from-gray-900/80 to-transparent rounded-2xl flex items-end">
                       <div className="text-zinc-100 p-4">
-                        <div className="text-sm font-medium text-lime-400">{step.step}</div>
-                        <div className="text-lg font-bold">{step.title}</div>
+                        <div className="text-xs font-medium text-lime-400">{step.step}</div>
+                        <div className="text-sm font-bold">{step.title}</div>
                       </div>
                     </div>
                   </div>

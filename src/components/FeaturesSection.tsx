@@ -62,13 +62,13 @@ const FeaturesSection: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-6xl font-bold text-zinc-100 mb-6">
+          <h2 className="text-2xl md:text-4xl font-bold text-zinc-100 mb-6">
             Core{' '}
             <span className="bg-gradient-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent">
               Features
             </span>
           </h2>
-          <p className="text-xl text-zinc-400 max-w-3xl mx-auto">
+          <p className="text-base text-zinc-400 max-w-3xl mx-auto">
             Everything you need to transform raw data into meaningful insights and beautiful visualizations.
           </p>
         </motion.div>
@@ -99,10 +99,10 @@ const FeaturesSection: React.FC = () => {
 
                 {/* Content */}
                 <div className="relative">
-                  <h3 className="text-xl font-bold text-zinc-100 mb-4 group-hover:text-lime-400 transition-colors duration-300">
+                  <h3 className="text-base font-bold text-zinc-100 mb-4 group-hover:text-lime-400 transition-colors duration-300">
                     {feature.title}
                   </h3>
-                  <p className="text-zinc-400 leading-relaxed">
+                  <p className="text-xs text-zinc-400 leading-relaxed">
                     {feature.description}
                   </p>
                 </div>
