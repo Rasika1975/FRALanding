@@ -96,7 +96,7 @@ const ParticleBackground: React.FC = () => {
     <canvas
       ref={canvasRef}
       className="fixed top-0 left-0 w-full h-full pointer-events-none z-0"
-      style={{ background: 'linear-gradient(135deg, #0a0f14 0%, #1a2332 50%, #0d1117 100%)' }}
+      style={{ background: '#0B0C0F' }}
     />
   );
 };

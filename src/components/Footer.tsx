@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
   ];
 
   return (
-    <footer id="contact" className="relative bg-gray-900/80 backdrop-blur-sm border-t border-gray-800">
+    <footer id="contact" className="relative bg-zinc-950/80 backdrop-blur-sm border-t border-zinc-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Main footer content */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 mb-12">
@@ -53,30 +53,30 @@ const Footer: React.FC = () => {
               className="mb-6"
             >
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-r from-lime-400 to-chartreuse rounded-lg flex items-center justify-center">
-                  <MapPin className="w-6 h-6 text-gray-900" />
+                <div className="w-10 h-10 bg-gradient-to-r from-lime-400 to-lime-300 rounded-lg flex items-center justify-center">
+                  <MapPin className="w-6 h-6 text-zinc-950" />
                 </div>
-                <span className="text-2xl font-bold bg-gradient-to-r from-lime-400 to-chartreuse bg-clip-text text-transparent">
+                <span className="text-2xl font-bold bg-gradient-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent">
                   FRA Atlas
                 </span>
               </div>
               
-              <p className="text-gray-400 mb-6 max-w-md">
+              <p className="text-zinc-400 mb-6 max-w-md">
                 Transform your data into powerful insights with our comprehensive analytics platform. 
                 Interactive maps, real-time dashboards, and enterprise-grade security.
               </p>
 
               {/* Contact info */}
               <div className="space-y-3">
-                <div className="flex items-center text-gray-400">
+                <div className="flex items-center text-zinc-400">
                   <Mail className="w-5 h-5 mr-3 text-lime-400" />
                   <span>contact@fra-atlas.com</span>
                 </div>
-                <div className="flex items-center text-gray-400">
+                <div className="flex items-center text-zinc-400">
                   <Phone className="w-5 h-5 mr-3 text-lime-400" />
                   <span>+1 (555) 123-4567</span>
                 </div>
-                <div className="flex items-center text-gray-400">
+                <div className="flex items-center text-zinc-400">
                   <MapPin className="w-5 h-5 mr-3 text-lime-400" />
                   <span>San Francisco, CA</span>
                 </div>
@@ -93,13 +93,13 @@ const Footer: React.FC = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-white font-semibold mb-4">{category}</h3>
+              <h3 className="text-zinc-100 font-semibold mb-4">{category}</h3>
               <ul className="space-y-3">
                 {links.map((link) => (
                   <li key={link.name}>
                     <Link
                       to={link.href}
-                      className="text-gray-400 hover:text-lime-400 transition-colors duration-200"
+                      className="text-zinc-400 hover:text-lime-400 transition-colors duration-200"
                     >
                       {link.name}
                     </Link>
@@ -111,14 +111,14 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Bottom section */}
-        <div className="border-t border-gray-800 pt-8">
+        <div className="border-t border-zinc-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="text-gray-400 mb-4 md:mb-0"
+              className="text-zinc-500 mb-4 md:mb-0"
             >
               © 2024 FRA. All rights reserved.
             </motion.div>
@@ -135,7 +135,7 @@ const Footer: React.FC = () => {
                 <a
                   key={social.label}
                   href={social.href}
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-lime-400 hover:bg-lime-400/10 transition-all duration-200"
+                  className="w-10 h-10 bg-zinc-800 rounded-full flex items-center justify-center text-zinc-400 hover:text-lime-400 hover:bg-lime-400/10 transition-all duration-200"
                   aria-label={social.label}
                 >
                   <social.icon className="w-5 h-5" />
@@ -148,7 +148,7 @@ const Footer: React.FC = () => {
 
       {/* Background decorations */}
       <div className="absolute top-0 right-20 w-40 h-40 bg-lime-400/5 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 left-20 w-32 h-32 bg-chartreuse/5 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 left-20 w-32 h-32 bg-lime-300/5 rounded-full blur-3xl"></div>
     </footer>
   );
 };

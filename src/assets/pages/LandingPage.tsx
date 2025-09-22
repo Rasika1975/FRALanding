@@ -1,5 +1,4 @@
  import React from 'react';
-import ParticleBackground from '../../components/ParticleBackground';
 import Navigation from '../../components/Navigation';
 import HeroSection from '../../components/HeroSection';
 import FeaturesSection from '../../components/FeaturesSection';
@@ -10,8 +9,7 @@ import Footer from '../../components/Footer';
 
 const LandingPage: React.FC = () => {
   return (
-    <div className="relative min-h-screen">
-      <ParticleBackground />
+    <div className="relative min-h-screen bg-[#0B0C0F]">
       <Navigation />
       <main className="relative z-10">
         <HeroSection />
