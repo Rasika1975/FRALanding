@@ -1,29 +1,36 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Upload, TrendingUp, Lightbulb } from 'lucide-react';
+import { FileText, FileCheck, UserCheck, FolderKanban } from 'lucide-react';
 
 const HowItWorksSection: React.FC = () => {
   const steps = [
     {
       step: '01',
-      icon: Upload,
-      title: 'Connect Your Data',
-      description: 'Securely connect your data sources. Use our flexible interface to import data from APIs using Axios, connect directly to your Supabase database, or upload structured files like CSVs.',
+      icon: FileText,
+      title: 'Citizen submits claim 📝',
+      description: 'Citizens can easily submit their claims through a simple and secure portal, uploading all necessary documents and information.',
       image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
       step: '02',
-      icon: TrendingUp,
-      title: 'Build Your Visualizations',
-      description: 'Use our intuitive tools to create stunning interactive maps and charts. Configure your dashboard components, apply filters to drill down into your data, and customize the look and feel to match your brand.',
+      icon: FileCheck,
+      title: 'NGO verifies claim ✅',
+      description: 'NGOs review submitted claims for completeness and accuracy, ensuring all required documentation is in order before forwarding.',
       image: 'https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
       step: '03',
-      icon: Lightbulb,
-      title: 'Discover and Share Insights',
-      description: 'Uncover patterns and trends through your new visual dashboards. Analyze relationships in your data, generate snapshots for reports, and share your findings with your team to drive data-driven decisions.',
+      icon: UserCheck,
+      title: 'Officer reviews & approves/rejects ⚖️',
+      description: 'Designated officers access verified claims, review the details on an interactive map, and make the final decision to approve or reject.',
       image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600',
+    },
+    {
+      step: '04',
+      icon: FolderKanban,
+      title: 'Admin oversees process 📂',
+      description: 'Administrators have a complete overview of the entire workflow, with real-time dashboards to track claim statuses and processing times.',
+      image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
   ];
 

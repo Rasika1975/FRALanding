@@ -37,7 +37,7 @@ const HeroSection: React.FC = () => {
             to="/signup"
             className="group bg-gradient-to-r from-lime-400 to-lime-300 text-zinc-950 px-6 py-2 rounded-full font-semibold text-sm hover:shadow-2xl hover:shadow-lime-400/25 transition-all duration-300 hover:scale-105 flex items-center"
           >
-            Get Started for Free
+            Proceed to Login
             <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </Link>
 

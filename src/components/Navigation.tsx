@@ -72,7 +72,7 @@ const Navigation: React.FC = () => {
               to="/signup"
               className="hidden md:block bg-gradient-to-r from-lime-400 to-lime-300 text-zinc-950 px-5 py-2 rounded-full font-semibold text-sm hover:shadow-lg hover:shadow-lime-400/25 transition-all duration-300 hover:scale-105"
             >
-              Get Started Free
+              Proceed to Login
             </Link>
           </motion.div>
 
@@ -108,7 +108,7 @@ const Navigation: React.FC = () => {
               to="/signup"
               className="block w-full bg-gradient-to-r from-lime-400 to-lime-300 text-zinc-950 px-6 py-2 rounded-full font-semibold text-sm text-center"
             >
-              Get Started Free
+              Proceed to Login
             </Link>
           </div>
         </motion.div>

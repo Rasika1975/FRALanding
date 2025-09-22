@@ -1,31 +1,31 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, BarChart3, DatabaseZap, Shield } from 'lucide-react';
+import { ScanText, Map, BrainCircuit, FileEdit } from 'lucide-react';
 
 const FeaturesSection: React.FC = () => {
   const features = [
     {
-      icon: MapPin,
-      title: 'Interactive Maps',
-      description: "Leverage the power of React-Leaflet to plot, analyze, and interact with your location-based data on dynamic, fast-loading maps. Customize markers, layers, and popups to tell your data's story geographically.",
+      icon: ScanText,
+      title: 'AI Data Extraction (Digitization)',
+      description: "Extracts key information (village name, claimant, coordinates) from scanned FRA documents using OCR and NER models.",
       gradient: 'from-lime-400 to-lime-300',
     },
     {
-      icon: BarChart3,
-      title: 'Powerful Dashboards',
-      description: "Create beautiful and insightful charts and graphs with Recharts. From line charts showing trends over time to complex pie charts for market segments, you can understand your data and make informed decisions at a glance.",
+      icon: Map,
+      title: 'FRA Atlas (WebGIS Viewer)',
+      description: "Interactive map showing FRA claims, forest boundaries, land-use, and asset data with GIS layers.",
       gradient: 'from-lime-400 to-lime-300',
     },
     {
-      icon: DatabaseZap,
-      title: 'Secure & Real-time Backend',
-      description: "Built on Supabase, your data is protected by robust security features, including Row-Level Security. Experience live data updates on your maps and dashboards, providing a seamless and instantaneous user experience.",
+      icon: BrainCircuit,
+      title: 'Decision Support System (DSS)',
+      description: "AI + rule-based engine to recommend relevant government schemes based on land and asset mapping.",
       gradient: 'from-lime-400 to-lime-300',
     },
     {
-      icon: Shield,
-      title: 'Robust Security',
-      description: "Rely on a secure foundation with end-to-end encryption, role-based access control powered by Supabase's policies, and a commitment to modern security standards to keep your data safe.",
+      icon: FileEdit,
+      title: 'Claim Management',
+      description: "Submit, edit, and monitor status of IFR/CR/CFR claims; supports geo-tagging and document uploads.",
       gradient: 'from-lime-400 to-lime-300',
     },
   ];

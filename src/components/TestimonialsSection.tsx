@@ -7,17 +7,17 @@ const TestimonialsSection: React.FC = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Chen',
-      role: 'CEO, TechStart Inc.',
-      avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
-      text: 'FRA Atlas transformed our vision into reality. Their expertise in data visualization and attention to detail exceeded our expectations. Our analytics platform launched successfully and scaled beautifully.',
+      name: 'NGO Worker',
+      role: 'Community Action Group',
+      avatar: 'https://images.pexels.com/photos/935756/pexels-photo-935756.jpeg?auto=compress&cs=tinysrgb&w=150',
+      text: 'FRA Atlas reduced our claim processing time by 40%.',
       rating: 5
     },
     {
-      name: 'Michael Rodriguez',
-      role: 'Founder, AI Solutions',
-      avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
-      text: 'Working with FRA Atlas was a game-changer. They integrated mapping capabilities into our platform seamlessly. The team\'s professionalism and technical skills are unmatched in the industry.',
+      name: 'Forest Officer',
+      role: 'District Governance',
+      avatar: 'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=150',
+      text: 'Easy to track and approve claims securely.',
       rating: 5
     },
     {
