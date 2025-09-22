@@ -8,21 +8,21 @@ const HowItWorksSection: React.FC = () => {
       step: '01',
       icon: Upload,
       title: 'Connect Your Data',
-      description: 'Import data from multiple sources including CSV files, APIs, databases, or real-time streams. Our platform supports over 50 data formats.',
+      description: 'Securely connect your data sources. Use our flexible interface to import data from APIs using Axios, connect directly to your Supabase database, or upload structured files like CSVs.',
       image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
       step: '02',
       icon: TrendingUp,
-      title: 'Visualize & Analyze',
-      description: 'Create stunning interactive maps and charts with our drag-and-drop interface. Apply filters, customize colors, and design your perfect dashboard.',
+      title: 'Build Your Visualizations',
+      description: 'Use our intuitive tools to create stunning interactive maps and charts. Configure your dashboard components, apply filters to drill down into your data, and customize the look and feel to match your brand.',
       image: 'https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
       step: '03',
       icon: Lightbulb,
-      title: 'Gain Insights',
-      description: 'Discover hidden patterns, generate automated reports, and make data-driven decisions with our AI-powered analytics and recommendations.',
+      title: 'Discover and Share Insights',
+      description: 'Uncover patterns and trends through your new visual dashboards. Analyze relationships in your data, generate snapshots for reports, and share your findings with your team to drive data-driven decisions.',
       image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
   ];
@@ -37,15 +37,12 @@ const HowItWorksSection: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            How It{' '}
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight max-w-4xl mx-auto">
+            From Data to Insight in Three Simple{' '}
             <span className="bg-gradient-to-r from-lime-400 to-chartreuse bg-clip-text text-transparent">
-              Works
+              Steps
             </span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Transform your data into actionable insights in three simple steps
-          </p>
         </motion.div>
 
         <div className="space-y-20">

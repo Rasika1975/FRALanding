@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Navigation: React.FC = () => {
@@ -39,10 +39,10 @@ const Navigation: React.FC = () => {
             className="flex items-center space-x-2"
           >
             <div className="w-8 h-8 bg-gradient-to-r from-lime-400 to-chartreuse rounded-lg flex items-center justify-center">
-              <Zap className="w-5 h-5 text-gray-900" />
+              <MapPin className="w-5 h-5 text-gray-900" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-lime-400 to-chartreuse bg-clip-text text-transparent">
-              DataViz Pro
+              FRA Atlas
             </span>
           </motion.div>
 

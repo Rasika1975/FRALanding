@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronRight, Zap } from 'lucide-react';
+import { ChevronRight, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const CTASection: React.FC = () => {
@@ -20,7 +20,7 @@ const CTASection: React.FC = () => {
           <div className="relative bg-gray-900/50 backdrop-blur-sm border border-lime-400/20 rounded-3xl p-12 md:p-16">
             <div className="flex justify-center mb-8">
               <div className="w-20 h-20 bg-gradient-to-r from-lime-400 to-chartreuse rounded-2xl flex items-center justify-center">
-                <Zap className="w-10 h-10 text-gray-900" />
+                <MapPin className="w-10 h-10 text-gray-900" />
               </div>
             </div>
 

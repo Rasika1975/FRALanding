@@ -7,25 +7,25 @@ const FeaturesSection: React.FC = () => {
     {
       icon: MapPin,
       title: 'Interactive Maps',
-      description: 'Leverage the power of react-leaflet to plot, analyze, and interact with your location-based data on dynamic, fast-loading maps.',
+      description: "Leverage the power of React-Leaflet to plot, analyze, and interact with your location-based data on dynamic, fast-loading maps. Customize markers, layers, and popups to tell your data's story geographically.",
       gradient: 'from-lime-400 to-green-400',
     },
     {
       icon: BarChart3,
       title: 'Powerful Dashboards',
-      description: 'Create beautiful and insightful charts and graphs with recharts. Understand trends and make data-driven decisions at a glance.',
+      description: "Create beautiful and insightful charts and graphs with Recharts. From line charts showing trends over time to complex pie charts for market segments, you can understand your data and make informed decisions at a glance.",
       gradient: 'from-chartreuse to-lime-300',
     },
     {
       icon: DatabaseZap,
-      title: 'Secure & Real-time',
-      description: 'Built on Supabase, your data is secure and can be updated in real-time, providing a seamless and live user experience.',
+      title: 'Secure & Real-time Backend',
+      description: "Built on Supabase, your data is protected by robust security features, including Row-Level Security. Experience live data updates on your maps and dashboards, providing a seamless and instantaneous user experience.",
       gradient: 'from-lime-300 to-green-300',
     },
     {
       icon: Shield,
-      title: 'Enterprise Security',
-      description: 'Bank-grade security with end-to-end encryption, role-based access control, and compliance with industry standards.',
+      title: 'Robust Security',
+      description: "Rely on a secure foundation with end-to-end encryption, role-based access control powered by Supabase's policies, and a commitment to modern security standards to keep your data safe.",
       gradient: 'from-green-400 to-lime-400',
     },
   ];
@@ -63,13 +63,13 @@ const FeaturesSection: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Powerful{' '}
+            Core{' '}
             <span className="bg-gradient-to-r from-lime-400 to-chartreuse bg-clip-text text-transparent">
               Features
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Everything you need to transform raw data into meaningful insights and beautiful visualizations
+            Everything you need to transform raw data into meaningful insights and beautiful visualizations.
           </p>
         </motion.div>
 

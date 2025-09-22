@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Zap } from 'lucide-react';
+import { ArrowLeft, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ParticleBackground from '../../components/ParticleBackground';
 
@@ -21,7 +21,7 @@ const SignupPage: React.FC = () => {
             <div className="text-center mb-8">
               <div className="flex justify-center mb-4">
                 <div className="w-16 h-16 bg-gradient-to-r from-lime-400 to-chartreuse rounded-2xl flex items-center justify-center">
-                  <Zap className="w-8 h-8 text-gray-900" />
+                  <MapPin className="w-8 h-8 text-gray-900" />
                 </div>
               </div>
               <h2 className="text-3xl font-bold text-white mb-2">Get Started Free</h2>

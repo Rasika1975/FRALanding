@@ -19,16 +19,16 @@ const HeroSection: React.FC = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
-            Visualize Your{' '}
+            Your Data, Mapped and{' '}
             <span className="bg-gradient-to-r from-lime-400 via-chartreuse to-lime-300 bg-clip-text text-transparent">
-              World
+              Visualized.
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
-            Turn complex geographical and statistical data into clear, actionable insights 
-            with our powerful analytics platform. Interactive maps, real-time dashboards, 
-            and secure data processing.
+            Transform complex geographical and statistical data into clear, actionable insights 
+            with FRA Atlas. Build interactive maps with React-Leaflet, design real-time dashboards 
+            with Recharts, and trust in a secure backend powered by Supabase.
           </p>
         </motion.div>
 

@@ -10,28 +10,28 @@ const TestimonialsSection: React.FC = () => {
       name: 'Sarah Chen',
       role: 'CEO, TechStart Inc.',
       avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
-      text: 'DataViz Pro transformed our vision into reality. Their expertise in data visualization and attention to detail exceeded our expectations. Our analytics platform launched successfully and scaled beautifully.',
+      text: 'FRA Atlas transformed our vision into reality. Their expertise in data visualization and attention to detail exceeded our expectations. Our analytics platform launched successfully and scaled beautifully.',
       rating: 5
     },
     {
       name: 'Michael Rodriguez',
       role: 'Founder, AI Solutions',
       avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
-      text: 'Working with DataViz Pro was a game-changer. They integrated mapping capabilities into our platform seamlessly. The team\'s professionalism and technical skills are unmatched in the industry.',
+      text: 'Working with FRA Atlas was a game-changer. They integrated mapping capabilities into our platform seamlessly. The team\'s professionalism and technical skills are unmatched in the industry.',
       rating: 5
     },
     {
       name: 'Emily Johnson',
       role: 'CTO, FinanceFlow',
       avatar: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150',
-      text: 'The scalable architecture DataViz Pro built for us has handled our rapid growth perfectly. Their security-first approach gave us confidence in handling sensitive financial data.',
+      text: 'The scalable architecture FRA Atlas built for us has handled our rapid growth perfectly. Their security-first approach gave us confidence in handling sensitive financial data.',
       rating: 5
     },
     {
-      name: 'David Kim',
-      role: 'Product Manager, InnovateHub',
-      avatar: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150',
-      text: 'DataViz Pro\'s UI/UX design excellence is evident in our platform\'s user engagement metrics. They created an intuitive interface that our users absolutely love.',
+       name: 'Jane Doe',
+      role: 'Head of Operations, InnovateHub',
+      avatar: 'https://images.pexels.com/photos/943084/pexels-photo-943084.jpeg?auto=compress&cs=tinysrgb&w=150',
+      text: "FRA Atlas provided the exact toolset we needed. We were able to quickly build out an internal dashboard that combined our sales data with geographical mapping. The real-time updates powered by Supabase are a fantastic feature that keeps our team in sync.",
       rating: 5
     }
   ];

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Zap, Mail, Phone, MapPin, Twitter, Linkedin, Github, Facebook } from 'lucide-react';
+import { Mail, Phone, MapPin, Twitter, Linkedin, Github, Facebook } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
@@ -54,10 +54,10 @@ const Footer: React.FC = () => {
             >
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-10 h-10 bg-gradient-to-r from-lime-400 to-chartreuse rounded-lg flex items-center justify-center">
-                  <Zap className="w-6 h-6 text-gray-900" />
+                  <MapPin className="w-6 h-6 text-gray-900" />
                 </div>
                 <span className="text-2xl font-bold bg-gradient-to-r from-lime-400 to-chartreuse bg-clip-text text-transparent">
-                  DataViz Pro
+                  FRA Atlas
                 </span>
               </div>
               
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
               <div className="space-y-3">
                 <div className="flex items-center text-gray-400">
                   <Mail className="w-5 h-5 mr-3 text-lime-400" />
-                  <span>contact@datavizpro.com</span>
+                  <span>contact@fra-atlas.com</span>
                 </div>
                 <div className="flex items-center text-gray-400">
                   <Phone className="w-5 h-5 mr-3 text-lime-400" />
