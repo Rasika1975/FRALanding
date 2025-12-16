@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronRight, Play } from 'lucide-react';
 import { Link } from 'react-router-dom';
+// @ts-ignore
 import { LayoutTextFlip } from './ui/layout-text-flip';
 import Earth from './Earth';
 

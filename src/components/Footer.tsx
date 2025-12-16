@@ -131,7 +131,7 @@ const Footer: React.FC = () => {
               viewport={{ once: true }}
               className="flex space-x-4"
             >
-              {socialLinks.map((social, index) => (
+              {socialLinks.map((social) => (
                 <a
                   key={social.label}
                   href={social.href}
