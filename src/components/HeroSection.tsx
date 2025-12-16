@@ -2,23 +2,28 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronRight, Play } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { LayoutTextFlip } from './ui/layout-text-flip';
+import Earth from './Earth';
 
 const HeroSection: React.FC = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
-      <div className="relative z-10 max-w-7xl mx-auto text-center">
+      <div className="absolute inset-0 z-0 opacity-30">
+        <Earth />
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto text-center pt-20">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="mb-8"
         >
-          <h1 className="text-3xl md:text-4xl font-bold text-zinc-100 mb-6 leading-tight">
-            Your Data, Mapped and{' '}
-            <span className="bg-gradient-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent">
-              Visualized.
-            </span>
-          </h1>
+          <LayoutTextFlip
+            text="Your Data, Mapped and "
+            words={["Visualized.", "Understood.", "Actionable."]}
+            className="bg-gradient-to-r from-lime-400 to-lime-300 bg-clip-text text-transparent"
+          />
 
           <p className="text-base md:text-lg text-zinc-400 mb-8 max-w-4xl mx-auto leading-relaxed">
             Transform complex geographical and statistical data into clear, actionable insights 
